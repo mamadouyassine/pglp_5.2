@@ -84,10 +84,7 @@ public class Personnels implements PersonelsInter {
     public String toString() {
         return ", Id=" + Id +"Personnels [nom=" + nom + ", prenom=" + prenom + ", dateDeNaissance=" + dateDeNaissance + ", numTel=" + numTel + "]";
     }
-    /*public String toString(){
-          String str = "\t je suis un Personnel ID ==>> " + this.Id;
-          return str;
-    }*/
+
     public String getNom() {
         return nom;
     }
